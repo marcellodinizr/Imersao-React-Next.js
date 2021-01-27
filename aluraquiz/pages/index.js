@@ -10,12 +10,12 @@ import Footer from "../src/components/Footer";
 import QuizLogo from "../src/components/QuizLogo";
 import QuizBackground from "../src/components/QuizBackground";
 
-const BackgroundImage = styled.div`
-	background-image: url(${db.bg});
-	flex: 1;
-	background-size: cover;
-	background-position: center;
-`;
+// const BackgroundImage = styled.div`
+// 	background-image: url(${db.bg});
+// 	flex: 1;
+// 	background-size: cover;
+// 	background-position: center;
+// `;
 
 export const QuizContainer = styled.div`
 	width: 100%;
@@ -61,8 +61,7 @@ export default function Home() {
 								placeholder="Diz ai seu nome"
 							/>
 							<button type="submit" disabled={name.length === 0}>
-								Jogar
-								{name}
+								Jogar {name}
 							</button>
 						</form>
 					</Widget.Content>
