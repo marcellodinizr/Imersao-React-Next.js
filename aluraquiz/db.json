@@ -27,7 +27,8 @@
     }
   ],
   "external": [
-    ""
+    "https://imersao-react-next-js.marcellodinizr.vercel.app/",
+    "https://aluraquiz-base.alura-challenges.vercel.app/"
   ],
   "theme": {
     "colors": {
